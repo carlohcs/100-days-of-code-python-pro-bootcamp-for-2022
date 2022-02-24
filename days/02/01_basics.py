@@ -60,6 +60,11 @@ my_float = 32.2; # int
 
 print(type(my_float)) # float
 
+# Boolean
+
+print(True)
+print(False)
+
 # String
 my_string = "Move on!";
 

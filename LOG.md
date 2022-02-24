@@ -24,3 +24,23 @@ Today the feeling it's "keep walking"! And how it's good to come back to study t
 
 Link to work: [01_basics.py](./days/02/01_basics.py)
 
+### D3: 2022/02/24
+
+I did a quiz from the course and this was the response: "You have been placed as intermediate. If you wish, you can skip ahead and start at Day 15."
+I want to move to this day, but I know that I need to understand some "particularities" of the language as for example:
+```
+my_var = "{:.2f}".format(10)
+print(my_var)
+
+# Result: 
+10.00
+```
+
+I saw some interesting links too:
+- Replit: a browser-based code editor - [https://replit.com/](https://replit.com/)
+- PyCharm: "The Python IDE for Professional Developers" - [https://www.jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
+- Codding Rooms: The first real-time platform for teaching programming online and in-person that enables you to connect with each student, see their work, and engage with their code instantly. [https://www.codingrooms.com/](https://www.codingrooms.com/)
+
+And finally, I did the "Tip Calculator" exercise to test some code.
+
+Link to work: [tip_calculator.py](./days/03/tip_calculator.py)
