@@ -48,10 +48,21 @@ Link to work: [tip_calculator.py](./days/03/tip_calculator.py)
 ### D4: 2022/02/26
 
 I solved three exercises.
-It was interesting to see again, some particularities from the language, as for example, the way how to create an 2d array and about the *'indexOf'* method from Python.
+It was interesting to see again, some particularities from the language, as for example, the way how to create an 2d array and about the `indexOf` method from Python.
 I had a lot things to do in my day, but was something good to achieve.
 
 Link to works:
   - [Leap Year](./days/04/01_leap_year.py)
   - [Love Calculator](./days/04/02_love_calculator.py)
   - [Treasure map](./days/04/03_treasure_map.py)
+
+### D5: 2022/03/01
+
+I solved three exercises again: the most important it was the Password Generator. It was interesting to see the use of `random.shuffle(password_list)` method and how to append items in array: `password_list += item`.
+
+Today was a hot day, where I was't enable to do anything. But I came back and here I am :).
+
+Link to works:
+  - [Highest Score](./days/05/01_highest_score.py)
+  - [Fizz Buzz](./days/05/02_fizz_buzz.py)
+  - [Py Password Generator](./days/05/03_py_password_generator.py)
