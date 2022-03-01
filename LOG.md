@@ -44,3 +44,14 @@ I saw some interesting links too:
 And finally, I did the "Tip Calculator" exercise to test some code.
 
 Link to work: [tip_calculator.py](./days/03/tip_calculator.py)
+
+### D4: 2022/02/26
+
+I solved three exercises.
+It was interesting to see again, some particularities from the language, as for example, the way how to create an 2d array and about the *'indexOf'* method from Python.
+I had a lot things to do in my day, but was something good to achieve.
+
+Link to works:
+  - [Leap Year](./days/04/01_leap_year.py)
+  - [Love Calculator](./days/04/02_love_calculator.py)
+  - [Treasure map](./days/04/03_treasure_map.py)
