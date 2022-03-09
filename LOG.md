@@ -66,3 +66,11 @@ Link to works:
   - [Highest Score](./days/05/01_highest_score.py)
   - [Fizz Buzz](./days/05/02_fizz_buzz.py)
   - [Py Password Generator](./days/05/03_py_password_generator.py)
+
+### D6: 2022/03/08
+
+I tried to solve a company interview test, but unfortunately I couldn't 🙁.
+The logic behind the idea does not appear in my mind.
+So I'm going to keep trying, but I'm going to try to get some help with these exercises.
+
+Link to work: [Ping Frequency](./days/06/01_ping_frequency.js)
