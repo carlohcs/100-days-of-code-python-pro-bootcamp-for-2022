@@ -74,3 +74,18 @@ The logic behind the idea does not appear in my mind.
 So I'm going to keep trying, but I'm going to try to get some help with these exercises.
 
 Link to work: [Ping Frequency](./days/06/01_ping_frequency.js)
+
+### D7: 2022/03/09
+
+I resolved some exercises from [Hacker Rank](https://www.hackerrank.com/) and it was really good to come back again in these "degree exercises":
+
+Link to work: [Handshake](./days/07/01_triangle.js)
+
+### D8: 2022/03/10
+
+I tried to solve again the PING FREQUENCY test and now it's working!
+I really have to thank to [@leomaurodesenv](https://github.com/leomaurodesenv) to help me with this contest! I will be always grateful.
+
+I'm really happy!
+
+Link to work: [Ping Frequency](./days/08/01_ping_frequency.js)

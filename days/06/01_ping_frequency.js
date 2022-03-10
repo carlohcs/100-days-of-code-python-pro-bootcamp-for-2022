@@ -57,7 +57,7 @@
 // OUTPUT - [4, 1]
 // Explanation: This is partitioned into [10-3609, 3610-4000] 
 // => Within the 10-3609 window, the user pinged 4 times, 
-// and within the 3610-400 window, they made pinged once, 
+// and within the 3610-4000 window, they made pinged once, 
 // leading to the final result of: [4, 1]
 
 // ABOVE A WRONG IMPLEMENTATION
