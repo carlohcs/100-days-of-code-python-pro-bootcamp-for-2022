@@ -1,6 +1,7 @@
 function lowestTriangle(trianglebase, area) {
-  const triangleHeight = (a, b) => Math.round((2 * a) / b) // 2 * (a / b)
-  const triangleArea = (h, b) => Math.round((h * b) / 2) // ( h * b ) / 2
+  // Should be a integer = Math.ceil
+  const triangleHeight = (a, b) => Math.ceil((2 * a) / b) // 2 * (a / b)
+  const triangleArea = (h, b) => Math.ceil((h * b) / 2) // ( h * b ) / 2
   const isTriangle = (a, b) => {
     let triHeight = triangleHeight(a, b)
     let triArea = triangleArea(triHeight, b)
@@ -11,19 +12,18 @@ function lowestTriangle(trianglebase, area) {
   let lowest = triangleHeight(area, trianglebase)
 
   // Constraints
-  if (trianglebase <= 1 || trianglebase >= 10e6 || area <= 1 || area >= 10e6) {
+  if (trianglebase < 1 || trianglebase >= 10e6 || area < 1 || area >= 10e6) {
     return
   }
 
   if (!isTriangle(area, trianglebase)) {
-    while(trianglebase > 1 && area > 1) {
-      if(isTriangle(area, trianglebase)){
+    while (trianglebase > 1 && area > 1) {
+      if (isTriangle(area, trianglebase)) {
         let calcHeight = triangleHeight(area, trianglebase)
-        
-        if(calcHeight < lowest) {
+
+        if (calcHeight < lowest) {
           lowest = calcHeight
         }
-        
       }
 
       trianglebase--
@@ -37,3 +37,4 @@ function lowestTriangle(trianglebase, area) {
 console.log(lowestTriangle(4, 6)) // right: 3
 console.log(lowestTriangle(17, 100)) // right: 12
 console.log(lowestTriangle(327454, 885497)) // right: 6
+console.log(lowestTriangle(1, 1)) // right: 2

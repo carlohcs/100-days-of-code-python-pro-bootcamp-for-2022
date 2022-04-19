@@ -89,3 +89,17 @@ I really have to thank to [@leomaurodesenv](https://github.com/leomaurodesenv) t
 I'm really happy!
 
 Link to work: [Ping Frequency](./days/08/01_ping_frequency.js)
+
+### D9: 2022/04/19
+
+Just commiting what I had done before:
+
+Resolution of socks test;
+Resolution of lowest triangle test.
+
+I tried to solve the game with cells, but I had to consult on internet - I almost get the solution!
+
+Link to works: 
+  - [Socks](./days/09/01_socks.js)
+  - [Lowest Triangle](./days/07/01_triangle.js)
+  - [Game with cells](./days/09/02_game_with_cells.js)
